@@ -3,9 +3,16 @@
 @import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
 @import url(http://fonts.googleapis.com/css?family=Inconsolata);
 
-body { font-family: 'Droid Serif'; }
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans"), local("OpenSans"), url("http://fonts.gstatic.com/s/opensans/v13/PfybUH-csLekLIU-pU-o7w.woff2") format("woff2"), url("http://fonts.gstatic.com/s/opensans/v13/uYKcPVoh6c5R0NpdEY5A-Q.woff") format("woff");
+}
+
+body { font-family: 'Open Sans'; }
 h1, h2, h3 {
-  font-family: 'Yanone Kaffeesatz';
+  font-family: 'Open Sans';
   font-weight: normal;
 }
-.remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+.remark-code, .remark-inline-code { font-family: 'Inconsolata'; }

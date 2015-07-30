@@ -28,6 +28,18 @@ Notes:
 Caption goes here
 
 ---
+## Code Sample
+
+```php
+/**
+ * Implements hook_world_alter().
+ */
+function example_world_alter() {
+  // ...
+}
+```
+
+---
 name: final
 background-image: url(images/last_wide.png)
 
